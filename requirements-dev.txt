@@ -1,0 +1,20 @@
+# Development dependencies
+-r requirements.txt
+
+# Testing
+pytest>=7.0.0,<8.0.0
+pytest-cov>=4.0.0,<5.0.0
+
+# Code formatting and linting
+black>=23.0.0,<25.0.0
+flake8>=6.0.0,<8.0.0
+isort>=5.12.0,<6.0.0
+
+# Development tools
+jupyter>=1.0.0,<2.0.0
+notebook>=6.5.0,<8.0.0
+ipykernel>=6.20.0,<7.0.0
+
+# Documentation
+sphinx>=5.0.0,<8.0.0
+sphinx-rtd-theme>=1.2.0,<3.0.0
